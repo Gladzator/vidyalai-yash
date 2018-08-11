@@ -1,0 +1,53 @@
+.header_background {
+  position: relative;
+  padding-top: .7rem;
+  display: flex;
+  flex-direction: row;
+}
+.student {
+  display: flex;
+  flex-direction: row;
+  background: #45CFE2;
+}
+
+.student_circle_1  {
+  position: absolute;
+  background-color: #298089;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  left: 5.2rem;
+}
+.student_circle_2 {
+  @extend .student_circle_1;
+  background-color: #009D4B;
+  left: 4.0rem;
+}
+.student_circle_3 {
+  @extend .student_circle_1;
+  background-color: #A967AA;
+  left: 2.8rem;
+}
+.student_circle_4 {
+  @extend .student_circle_1;
+  background-color: #F7931E;
+  left: 1.6rem;
+}
+.student_circle_5 {
+  @extend .student_circle_1;
+  background-color: #CE242B;
+  left: .4rem;
+}
+
+.student_header_name {
+  cursor: default;
+  width: 1.4rem;
+  height: 1.2rem;
+  font-size: 1.016rem;
+  line-height: 0rem;
+  text-align: center;
+  padding-left: .3rem;
+  color: white;
+  font-weight: 200;
+  font-family: 'Proxima Nova';
+}

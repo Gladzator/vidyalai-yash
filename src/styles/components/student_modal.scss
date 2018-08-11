@@ -1,0 +1,26 @@
+.student_open {
+  width: 30.2rem;
+  height: 18.7rem;
+  background-color: #45CFE2;
+}
+
+.online_circle_header {
+  width: .6rem;
+  height: .6rem;
+  border: 0.05rem solid white;
+  border-radius: 50%;
+  background: #7AC943;
+  position: absolute;
+  bottom:0;right:.2rem;
+}
+.student_endof_space {
+  cursor: default;
+  margin: 0;
+  margin-left: 8rem;
+  width: 1.2rem;
+  height: 2rem;
+  background: #45CFE2;
+  color: white;
+  padding: 1.1rem 0 1.2rem 0;
+  font-weight: 600;
+}

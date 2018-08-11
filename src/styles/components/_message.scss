@@ -1,0 +1,59 @@
+.chat {
+  min-height: 32.4rem;
+  max-height: 32.5rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.messages {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.message_box {
+  position: relative;
+  max-width: 20.4rem;
+  float: right;
+  left: 1.2rem;
+  border-radius: 1.3rem 1.3rem .2rem 1.3rem;
+  background: #42A5F5;
+  color: white;
+  padding: .7rem 1.425rem 0rem 1.931rem;
+  margin-bottom: .3rem;
+  margin-left: 6rem;
+}
+.message_box_received {
+  position: relative;
+  @extend .message_box;
+  float: left;
+  left: 4.2rem;
+  border-radius: 1.3rem 1.3rem 1.3rem .2rem;
+  background: white;
+  box-shadow: 0rem .2rem .4rem #CBCBCB;
+  color: black;
+  margin-left: 0rem;
+}
+.message_text {
+  margin: 0rem;
+  text-align: left;
+  font-size: 1.2rem;
+  padding-right: 2.2rem;
+  font-style: "Montserrat";
+  font-weight: 300;
+}
+.message_time {
+  max-width: 2.3rem;
+  float: right;
+  font-size: .6rem;
+  color: white;
+  margin: 0;
+  font-weight: 300;
+}
+.message_time_received {
+  @extend .message_time;
+  color: #999999;
+}
+.received_message {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
