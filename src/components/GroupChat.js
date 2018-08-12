@@ -6,17 +6,11 @@ import moment from "moment";
 class GroupChat extends React.Component {
   constructor(props) {
     super(props);
-    console.log(props);
     this.state = {
       id: undefined
     }
   };
-  componentWillUpdate(prevProps,prevState) {
-    console.log(prevState.id);
-    console.log(prevProps.id);
-  }
   checkId = () => {
-    console.log(this.state.id)
     if(this.props.id === this.state.id) {
         return true;
     } else {
